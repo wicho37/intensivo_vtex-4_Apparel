@@ -1,12 +1,14 @@
 import logo from "../../assets/logo.svg"
+import "./Header.css"
+
 
 
 function Header () {
-    return (
-        <div>
-           <img src={logo} alt="" />
+    return(
+        <div className="headerContent">
+            <img src={logo} alt="" />
         </div>
-    )
+    );
 }
 
 
