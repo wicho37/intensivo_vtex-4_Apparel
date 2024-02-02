@@ -1,5 +1,5 @@
 import iconoError from "../../assets/icon-error.svg"
-import iconoFlecha from "../../assets/flecha.svg"
+import iconoFlecha from "../../assets/icon-arrow.svg"
 
 
 function SeccionBelow() {
