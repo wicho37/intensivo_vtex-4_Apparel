@@ -1,6 +1,6 @@
 import iconoError from "../../assets/icon-error.svg"
 import iconoFlecha from "../../assets/icon-arrow.svg"
-
+import "./SeccionBelow.css"
 
 function SeccionBelow() {
 
@@ -15,7 +15,7 @@ function SeccionBelow() {
     };
 
     return (
-        <div>
+        <div className="contentBelow">
             <h1>we're</h1>
             <h2>
                 coming <br />soon
@@ -31,7 +31,7 @@ function SeccionBelow() {
                             setMensError("");
                         }
                     }}
-                    placeholder="ingresa email"
+                    placeholder="Email Adress"
                 />
                 <span className="">{mensError}</span>
                 {mensError !== "" && <img src={iconoError} className="" />}
