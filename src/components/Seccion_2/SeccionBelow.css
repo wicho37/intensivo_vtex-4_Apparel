@@ -1,3 +1,7 @@
+* {
+    font-family: Josefin Sans;
+}
+
 .imagen{
     background-image: url(../../assets/hero-mobile.jpg);
     background-repeat: no-repeat;
@@ -5,23 +9,44 @@
 }
 .contentBelow h1{
     text-transform: uppercase;
-    font-size: 53px;
+    font-size: 38px;
     letter-spacing: 9.5px;
     line-height: 1;
     text-align: center;
     margin: 35px 0 0;
     color: hsl(0, 36%, 70%);
    font-weight: unset;
-
  }
 
  .contentBelow  h2 {
    margin: 0;
    letter-spacing: 14.5px;
    text-transform: uppercase;
-   font-size: 53px;
+   font-size: 38px;
    line-height: 1;
    text-align: center;
-   
-   
 }
+
+.contentBelow p {
+  color: hsl(0, 36%, 70%);
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+    margin: 16px;
+    text-align: center;
+}
+
+.contentBelow div input{
+      background: transparent;
+      border: 1px solid hsl(0, 36%, 70%, 0.7);
+      position: relative; 
+      width: 76%;
+      height: 70px;
+      border-radius: 64px;
+      padding-left: 19px;
+      margin: 16px;
+  }
+
+
+  
