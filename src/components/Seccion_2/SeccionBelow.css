@@ -2,6 +2,102 @@
     font-family: Josefin Sans;
 }
 
+.contentBelow h1{
+  color: hsl(0, 36%, 70%);
+}
+.contentBelow h1, h2{
+  text-transform: uppercase;
+  text-align: left;
+  margin: 20% 0 0 20%;
+  font-size: 52px;
+  letter-spacing: 19.5px;
+  line-height: 1.1;
+  font-weight: unset;
+}
+
+.contentBelow h2{
+  margin-top: 0px;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.formContent {
+  display: flex;
+  flex-direction: column;
+  height: 115px;
+  margin: 0 0 0 20%;
+  position: relative;
+}
+
+.contentBelow p {
+  color: hsl(0, 36%, 70%);
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: -1.5px;
+    margin: 2% 25% 5% 20%;
+    text-align: left;
+}
+
+.contentBelow .formContent input{
+  background: transparent;
+  border: 1px solid hsla(0, 25%, 49%, 0.7);
+  position: relative; 
+  width: 62%;
+  height: 57px;
+  border-radius: 40px;
+  padding-left: 7%;
+}
+
+.contentBelow input::placeholder {
+  color: hsl(0, 38%, 60%, 0.5 );
+  font-size: 19px;
+  letter-spacing: .4px;
+  font-weight: bold;
+}
+.contentBelow input:focus {
+  color: hsl(0, 93%, 68%);
+}
+
+.contentBelow input:focus {
+  color: hsl(0, 93%, 68%);
+}
+
+.mensError {
+  margin: 20px;
+  color: hsl(0, 74%, 74%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.iconoError {
+  position: absolute;
+  left: 30%;
+  top: 60%;
+  width: 33px;
+}
+
+.imgContent {
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  position: absolute;
+  right: 30%;
+  width: 105px;
+  height: 61px;
+  border-radius: 64px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.imgContent img {
+  height: 23px;
+  margin-top: 17px;
+
+}
+ 
+
+
+/* 
 .imagen{
     background-image: url(../../assets/hero-mobile.jpg);
     background-repeat: no-repeat;
@@ -95,5 +191,4 @@
     height: 20px;
     margin-top: 14px;
   }
- 
- 
+  */

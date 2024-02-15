@@ -22,7 +22,9 @@ function SeccionBelow() {
             <h2>
                 coming <br />soon
             </h2>
-            <p>Hello fellow shoppers! We're currently building oiur new fashion store. Add your email below to stay up-to date with announcements and our launch deals.</p>
+            <p>Hello fellow shoppers! We're currently building oiur new 
+                 fashion store. Add your email below to stay up-to-date with 
+                 announcements and our launch deals.</p>
             <div className="formContent">
                 <input
                     type="text"
