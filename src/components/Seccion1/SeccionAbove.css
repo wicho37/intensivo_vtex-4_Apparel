@@ -1,0 +1,16 @@
+.imgMobil {
+    display: none;
+}
+.imgDeskt {
+    display: block;
+}
+
+
+@media(max-width: 376px)  {
+    .imgDeskt {
+       display: none;
+    }
+    .imgMobil {
+        display: block;
+    }
+}

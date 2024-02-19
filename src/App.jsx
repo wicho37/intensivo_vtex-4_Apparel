@@ -10,13 +10,13 @@ function App() {
   return (
 
     <div className='container'>
-      <div>
+      <div className="container1">
           <Header />
-          <SeccionBelow />
-        </div>
-        <div>
-          <SeccionAbove />
-        </div>
+      </div>
+      <div className="container2">
+        <SeccionBelow />
+        <SeccionAbove />
+      </div>
     </div>
 
 

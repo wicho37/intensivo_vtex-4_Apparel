@@ -8,13 +8,21 @@
   display: flex;
   flex-direction: row;
 }
+.container2{
+  display: flex;
+
+}
 
 
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .container{
-    flex-direction: column;
-    align-items: center;
-  }
-  
+    display: block;
+    }
+      .container2{
+        flex-wrap: wrap-reverse;
+    }
+    .imgMobil{
+      width: 124%;
+    } 
 }
