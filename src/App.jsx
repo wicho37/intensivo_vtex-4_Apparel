@@ -6,9 +6,7 @@ import SeccionBelow from './components/Seccion_2/SeccionBelow'
 
 function App() {
 
-
   return (
-
     <div className='container'>
       <div className="container1">
           <Header />
@@ -18,8 +16,6 @@ function App() {
         <SeccionAbove />
       </div>
     </div>
-
-
   )
 }
 

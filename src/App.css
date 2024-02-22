@@ -3,27 +3,20 @@
   margin: 0 auto;
   padding: 0;
 }
-
 .container {
   display: flex;
   flex-direction: row;
 }
 .container2{
   display: flex;
-
-
 }
-
-
 
 @media (max-width: 376px) {
   .container{
     display: block;
     }
-      .container2{
-        flex-wrap: wrap-reverse;
-        width: 100%;
-       
+  .container2{
+    flex-wrap: wrap-reverse;
+     width: 100%;
     }
-  
 }

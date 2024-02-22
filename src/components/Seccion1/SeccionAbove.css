@@ -5,7 +5,6 @@
     display: block;
 }
 
-
 @media(max-width: 376px)  {
     .imgDeskt {
        display: none;

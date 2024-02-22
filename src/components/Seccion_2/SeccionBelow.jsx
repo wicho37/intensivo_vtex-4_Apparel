@@ -48,5 +48,4 @@ function SeccionBelow() {
     )
 }
 
-
 export default SeccionBelow

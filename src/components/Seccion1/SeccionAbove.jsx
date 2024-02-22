@@ -12,5 +12,4 @@ function  SeccionAbove () {
     )
 }
 
-
 export default  SeccionAbove
