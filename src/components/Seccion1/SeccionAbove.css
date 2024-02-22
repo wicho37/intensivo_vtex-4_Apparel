@@ -12,5 +12,6 @@
     }
     .imgMobil {
         display: block;
+        width: 125%;
     }
 }

@@ -1,5 +1,10 @@
 * {
     font-family: Josefin Sans;
+    
+}
+
+.contentBelow {
+  width: 100%;
 }
 
 .contentBelow h1{
@@ -17,7 +22,6 @@
 
 .contentBelow h2{
   margin-top: 0px;
-  font-size: 64px;
   font-weight: bold;
 }
 
@@ -96,15 +100,43 @@
 }
  
 @media (max-width:376px) {
-    .contentBelow h1, h2 {
+    .contentBelow h1, h2{
       text-align: center;
-      margin: 17%;
-      letter-spacing: 17px;
-      font-size: 35px;
+      margin: 20% 10% 0 10% ;
+      letter-spacing: 13px;
+      font-size: 48px;
     }
+    
     .contentBelow p {
       text-align: center;
-      font-size: 15px;
+      margin: 5%;
+      font-size: 19px;
+      width: 117%;
+    }
+    .contentBelow .formContent {
+      margin: 8%;
+      height: 114px;
+      width: 120%;
+    }
+    .formContent .imgContent{
+      right: 5%;
+      width: 77px;
+      height: 55px;
+    }
+    .imgContent img {
+      margin-top: 14px;
+      width: unset;
+
+    }
+   
+    .contentBelow .formContent input{
+      height: 51px;
+      width: 86%;
+
+    }
+    .iconoError{
+      left: 65%;
+      top: 55%;
     }
 }
 

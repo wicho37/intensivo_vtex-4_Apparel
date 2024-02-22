@@ -11,6 +11,7 @@
 .container2{
   display: flex;
 
+
 }
 
 
@@ -21,8 +22,8 @@
     }
       .container2{
         flex-wrap: wrap-reverse;
+        width: 100%;
+       
     }
-    .imgMobil{
-      width: 124%;
-    } 
+  
 }

@@ -12,11 +12,10 @@
 @media (max-width: 376px) {
     .headerContent  {
         margin: 6%;
-        font-size: large;
         position: static;
 }
     .headerContent img {
-        width: 33%;
+        width: 43%;
         margin: 4%;
     }
 }
